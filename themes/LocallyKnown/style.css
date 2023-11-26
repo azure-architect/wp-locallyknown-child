@@ -1,0 +1,63 @@
+/*
+ Theme Name:   Locally Known Child
+ Theme URI:    https://locallyknown.pro
+ Description:  A Custom GeneratePress child theme
+ Author:       Mac
+ Author URI:   https://headfullof02.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/*
+Block to limit size of site to 1920
+*/
+/* Site Wrapper */
+.site-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+/*
+aspect ratios for images
+*/
+.ar-16-9 {
+  aspect-ratio: 16/9;
+}
+
+.ar-9-16 {
+  aspect-ratio: 9/16;
+}
+
+.ar-4-3 {
+  aspect-ratio: 4/3;
+}
+
+.ar-1-1 {
+  aspect-ratio: 1/1;
+}
+
+/* Visually Hidden */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* No Underline */
+.no-ul,
+.no-ul a {
+  text-decoration: none;
+}
+/* Remove bottom margin on last paragraph */
+.gb-container p:last-child:last-of-type {
+  margin-bottom: 0px;
+}
+
+.block-editor-block-list__layout .gb-container p:nth-last-child(2) {
+  margin-bottom: 0px;
+}
